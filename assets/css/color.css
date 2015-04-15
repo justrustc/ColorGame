@@ -1,0 +1,76 @@
+body{ background-color: #F06060; color: #fff; font: 12px/1.5 '微软雅黑';text-align: center}
+.page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.off{display: none}
+.center{
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    margin: auto;    /* 有了这个就自动居中了 */
+    /*另一种方法*/
+    /*left: 50%; top: 50%;*/
+    /*transform: translate(-50%, -50%);    *//* 50%为自身尺寸的一半 */
+}
+#index h1 {
+    font-size: 30px;
+    padding: 30px 0;
+}
+.btn{
+    background:#fcad26;
+    border:none;
+    border-radius: 7px;
+    box-shadow: 0 5px #da9622;
+    color: #dddddd;
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    height:70px;
+    line-height: 70px;
+    outline: none;
+    width:200px;
+}
+.btn-pause{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 40px;
+    width: 60px;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+#help{
+    height: 30px;
+    font-size: 16px;
+    color: #FFA1A1;
+}
+#pause h3{
+    font-size: 30px;
+    padding: 30px 0;
+    color: #FFE2C5;
+}
+#gameover p{
+    font-size: 20px;
+}
+#gameover h3{
+    line-height: 60px;
+    font-size: 40px;
+    margin: 0;
+    color: #321;
+}
+#ing header{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #FFA1A1;
+}
+.lv{
+    position: absolute;top:0;left:0
+}
