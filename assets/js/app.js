@@ -65,9 +65,8 @@ app.init = function () {
     $('#ing').removeClass('off');
 };
 app.addRect = function () {
-    var self = this;
-
-    var n = self.lvMap[self.lv++] || 9,
+    var self = this,
+        n = self.lvMap[self.lv++] || 9,
         rcl = self.randomColor(),
         cl = rcl.cl,
         targetCl = rcl.scl,
